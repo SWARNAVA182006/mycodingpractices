@@ -1,0 +1,22 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    int n,r,x,c;
+    cout<<"Enter a number=";
+    cin>>n;
+    c=n;
+    while(n>0){
+        r=n%10;//to get the last digit first
+        n=n/10;//to modify the number by discarding numbers from the last one by one
+    cout<<r<<endl;
+       x+=pow(r,3); 
+    }
+    if(x==c){
+        cout<<c<<" is an armstrong number"<<endl;
+    }else{
+        cout<<c<<" is not an armstrong number"<<endl;
+    }
+    
+    return 0;
+}
