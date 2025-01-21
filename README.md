@@ -1,2 +1,2 @@
 # mycodingpractices
-basic to advance level codesin various languages.
+basic to advance level codes in various languages.
