@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n,x=0;
+    cout<<"Enter the n value= ";
+    cin>>n;
+    for(int i=1;i<=n;++i){
+        
+    if(n%i==0){
+        cout<<i<<endl;
+    }else{
+        continue;
+    }
+    x+=i;
+    }
+    cout<<"sum of the factors= "<<x<<endl;
+    if(2*n==x){
+        cout<<n<<" is a perfect number"<<endl; 
+    }else{
+        cout<<n<<" is not a perfect number"<<endl;
+    }
+    return 0;
+}
