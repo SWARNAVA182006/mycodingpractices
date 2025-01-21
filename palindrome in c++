@@ -1,0 +1,23 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int n,r,x,c,rev=0;
+    cout<<"Enter a number=";
+    cin>>n;
+    c=n;
+    while(n>0){
+        r=n%10;//to get the last digit first
+        n=n/10;//to modify the number by discarding numbers from the last one by one
+        rev=rev*10+r;
+    cout<<r<<endl;
+        
+    }
+    
+    cout<<rev<<endl;
+    if(c==rev){
+        cout<<c<<" is a palindrome"<<endl;
+    }else{
+        cout<<c<<" is not a palindrome"<<endl;
+    }}
